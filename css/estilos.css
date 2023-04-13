@@ -1,0 +1,187 @@
+
+
+body{
+  background: linear-gradient(to bottom right ,black,red);
+    margin: 0;
+    font-family: monospace;
+    width: 99%;
+    height: 99%;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: goldenrod;
+}
+
+.brand img{
+    width: 150px;
+    height: 100px;
+    
+    
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#mi-parrafo {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    display: flex;
+    font-display: initial;
+}
+
+#mi-parrafo2{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans MT';
+    display: flex;
+    font-display: initial;
+}
+
+  
+ 
+
+  footer {
+    background:linear-gradient(black,gray) ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    height: 140px;
+    
+
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  
+}
+
+footer a i {
+  margin-right: 5px;
+}
+
+
+p{
+  font-family: 'Times New Roman';
+  
+}
+
+.galeria {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 10px;
+	padding: 20px;
+}
+
+.galeria a {
+	display: block;
+	position: relative;
+}
+
+.galeria a:hover img {
+	transform: scale(1.1);
+}
+
+.galeria img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+#parrafito{
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans MT';  
+}
+
+#tituloo{
+    color: gold;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family:'Lucida Sans Unicode'; 
+}
+
+.img-fluid{
+  margin-left: 15px;
+  border-radius: 25px;
+}
+  
+.img-fluidx{
+  border-radius: 35px;
+  margin-left: 22px;
+}
+
+.img-fluidos{
+  margin-left: 17px;
+  background-color: gold;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  display: flexbox;
+}
+
+#titulo{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#mi-parrafo3{
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+#mi-parrafo4{
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+  
+  
+  
+  
